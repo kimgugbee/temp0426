@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #9d00ff; /* Bright purple */
+  --primary-hover: #b033ff;
+  --secondary-color: #3b2a5c;
+  --bg-gradient: linear-gradient(135deg, #1b0c36 0%, #150926 100%);
+  --card-bg: rgba(35, 35, 59, 0.8);
+  --input-bg: rgba(20, 20, 35, 0.8);
+  --text-primary: #f8fafc;
+  --text-secondary: #a7a7c9;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Pretendard', sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+}
